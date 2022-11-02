@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyFirstTests">
+
+    <listeners>
+        <listener class-name="lesson19.MyProjectListener"></listener>
+    </listeners>
+    <test name="exampleTest1">
+        <classes>
+            <class name="lesson19.OurSecondTest"></class>
+        </classes>
+    </test>
+    
+    <test name="exampleTest2">
+        <classes>
+            <class name = "lesson19.OurThirdTest"></class>
+        </classes>
+    </test>
+</suite>

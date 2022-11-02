@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SecondSuite" parallel="methods" thread-count="2">
+    <test name="exampleTest3">
+        
+        <parameter name="username" value="lex@gmail.com"></parameter>
+        <parameter name="password" value="325325325"></parameter>
+
+        <classes>
+            <class name="lesson19.OurFourthTest"></class>
+        </classes>
+    </test>
+
+</suite>
