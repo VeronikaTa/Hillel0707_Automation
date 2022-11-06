@@ -16,8 +16,7 @@ public class LaptopsPageLogic {
         return page(LaptopsPageLogic.class);
     }
 
-    public String getCartIterator() throws InterruptedException {
-//        Thread.sleep(2000);
+    public String getCartIterator() {
    return  $(byXpath(cartIteratorLocator)).innerText().trim();
     }
 

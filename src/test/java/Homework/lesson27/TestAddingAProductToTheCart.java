@@ -17,7 +17,7 @@ public class TestAddingAProductToTheCart {
     }
 
     @Test
-    public void testAddingFirstProductToTheCartAndAssertingProductTitle() throws InterruptedException {
+    public void testAddingFirstProductToTheCartAndAssertingProductTitle() {
         new MainPageLogic()
                 .clickOnLaptopsAndComputersOption()
                 .clickOnLaptopsOption()
