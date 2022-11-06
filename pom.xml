@@ -16,9 +16,19 @@
         <testng-version>7.6.1</testng-version>
         <selenium-version>4.4.0</selenium-version>
         <webdrivermanager-version>5.3.0</webdrivermanager-version>
+        <selenide-version>6.8.1</selenide-version>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>${selenide-version}</version>
+        </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
