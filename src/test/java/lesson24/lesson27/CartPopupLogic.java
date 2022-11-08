@@ -1,4 +1,4 @@
-package Homework.lesson27;
+package lesson24.lesson27;
 
 import org.openqa.selenium.By;
 

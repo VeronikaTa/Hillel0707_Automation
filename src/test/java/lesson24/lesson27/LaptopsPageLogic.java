@@ -1,4 +1,4 @@
-package Homework.lesson27;
+package lesson24.lesson27;
 
 import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;

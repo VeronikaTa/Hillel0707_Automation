@@ -1,4 +1,6 @@
-package Homework.lesson27;
+package lesson24.lesson27;
+
+import com.codeborne.selenide.Selenide;
 
 import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
@@ -10,6 +12,6 @@ public class LaptopsAndComputersPageLogic {
 
     public LaptopsPageLogic clickOnLaptopsOption(){
         $(byXpath(laptopsOptionLocator)).click();
-        return page(LaptopsPageLogic.class);
+        return Selenide.page(LaptopsPageLogic.class);
     }
 }
