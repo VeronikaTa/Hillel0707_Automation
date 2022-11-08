@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.open;
 
 public class AddingToCartTest {
-    PortalGridOptionPageLogic product = new PortalGridOptionPageLogic();
+    ProductsPageLogic product = new ProductsPageLogic();
     CartPopupLogic cartPopupLogic = new CartPopupLogic();
 
     @BeforeTest

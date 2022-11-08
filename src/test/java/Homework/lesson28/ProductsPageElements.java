@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Selectors.byXpath;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
 
-public class PortalGridOptionPageElements {
+public class ProductsPageElements {
     ElementsCollection buyButtons = $$(byXpath("//button[contains(@class,'buy-button')]"));
     ElementsCollection productTitles = $$(byXpath("//span[@class='goods-tile__title']"));
     SelenideElement cartIterator = $(byXpath("//span[contains(@class,'counter')]"));
